@@ -219,3 +219,39 @@ nav ul li {
     margin: 0 0.4rem;
   }
 }
+
+
+.profile-photo img {
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: scale-down;
+    margin: 0 auto;
+    display: block;
+    border: 5px solid #fff;
+    box-shadow: 0 0 0 5px #026dca;
+    transition: 0.3s ease;
+    transition-property: transform, box-shadow;
+}
+
+.profile-photo img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 5px #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
